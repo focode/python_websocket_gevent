@@ -6,7 +6,7 @@ from datetime import datetime
 
 def process(ws,data,sem):
     print('{} got data "{}"'.format(datetime.now().strftime('%H:%M:%S'), data))
-    # gevent.sleep(1)
+    # gevent.sleep(seconds=0)
     with sem:
         ws.send(data)
 
