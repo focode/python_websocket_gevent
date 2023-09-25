@@ -1,5 +1,5 @@
 cffi==1.14.0
-gevent==20.6.0
+gevent==23.9.1
 gevent-websocket==0.10.1
 greenlet==0.4.16
 pycparser==2.20
